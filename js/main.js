@@ -52,14 +52,7 @@ var color = d3.scaleOrdinal()
 //All colours
 .range([ "#00709b","#40010D",  "#B0C1D9", "#D2D904", "#F2D649", "#F2594B", "#CDD977","#BDBF75","#F2B279", "#A6A4A4", "#D97B73","#6960EC", "#87AFC7","#2B547E","#0B615E","#0B3861","#B45F04","#0B173B","#0B3B39","#0B3B24","#0B0B3B","#173B0B","#B40431","#FA5858","#FA8258","#FE9A2E","#FACC2E","#F7FE2E","#C8FE2E","#9AFE2E","#2EFE2E","#2EFE64","#2EFE9A","#2EFEC8","#2EFEF7","#2ECCFA","#2E9AFE","#2E2EFE","#642EFE","#9A2EFE","#CC2EFA","#FE2EF7","#FE2EC8","#FE2E64","#FF4000","#FF8000","#FFBF00","#FFFF00","#BFFF00","#80FF00","#00FF40","#00FF80","#00FFBF",
   "#00FFFF","#00BFFF","#0080FF","#0040FF","#0000FF","#4000FF","#8000FF","#BF00FF","#FF00FF","#FF00BF","#FF0080","#FF0040"])
-/////
-var symbols = d3.scaleOrdinal(d3.symbols);
 
-// creates a generator for symbols
-var symbol = d3.symbol().size(100);
-
-
-/////
 var tooltip = d3.select("body").append("div")
     .attr("class", "tooltip")
     .style("opacity", 0)
